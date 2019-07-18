@@ -1,2 +1,2 @@
 # lets_scrape
-web scraping
+web scraping using beautifulsoup
