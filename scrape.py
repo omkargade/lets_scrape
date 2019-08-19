@@ -1,4 +1,4 @@
-import requests , time
+import time
 import html5lib
 import urllib.request
 from bs4 import BeautifulSoup
@@ -35,13 +35,13 @@ for urli in all_url:
         print(long)
 
 for i in complete_url:
-    zz=0
+    count=0
     for z in i.split("."):
         if z == "google":
-            zz = 1
+            count = 1
         else:
             pass
-    if zz == 0:
+    if count == 0:
         print(url+i)
     else:
         print(i)
